@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("\nFood Item \nSelect your food \n1.Pizza \n2.Burger \n3.Pasta \n4.French Fries \n5.Sandwich\n");
+    scanf("%d",&a);
+
+    switch(a)
+    {
+    case 1:
+        printf("Pizza");
+        printf("\nPrice-Rs 239");
+        break;
+
+    case 2:
+        printf("Burger");
+        printf("\nPrice-Rs 129");
+        break;
+
+    case 3:
+        printf("Pasta");
+        printf("\nPrice-Rs 179");
+        break;
+
+    case 4:
+        printf("French Fries");
+        printf("\nPrice-Rs 99");
+        break;
+
+    case 5:
+        printf("Sandwich");
+        printf("\nPrice-Rs 149");
+        break;
+
+    }
+}
